@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Beauty Website</title>
+         <link rel="stylesheet" href="./stylesheets/style.css"></link>
+         <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+             
+            li {
+              float: left;
+            }
+             
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+    
+
+
+            li a:hover {
+              background-color: #111;
+            }
+            
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: white;
+ min-height: 50vh;
+  margin-top: 2vh;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#footer-ulist{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+ #footer-ulist > #footer-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
+            </style>
+            
+    </head>
+    <body>
+        <header>
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="./pages/products.html">Products</a></li>
+            <li><a href="./pages/contact.html">Contact Us</a></li>
+            <li><a href="./pages/About.html">About</a></li>
+            </ul>
+            
+            </header>
+        <main class="main">
+            <div class="banner">
+            
+            </div>
+
+  
+<h2 style="text-align: center">Products</h2>
+ 
+<div class="product">
+<div class="card">
+<img src="./images/img1.jpg" alt="" style="width:100%">
+<h1>Product1</h1>
+<p class="price">$20.99</p>
+<p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+<p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="./images/img1.jpg" alt="" style="width:100%;">
+  <h1>Product2</h1>
+  <p class="price">$19.99</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+<p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="card">
+    <img src="./images/img1.jpg" alt="" style="width:100%;">
+    <h1>Product3</h1>
+    <p class="price">$25.00</p>
+    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+<p><button>Add to Cart</button></p>
+    </div>
+
+</div>
+        </main>
+
+        <footer class="footer">
+          <div id="footer-ulist">
+            <span id="footer-list"><a href="#">Home</a></span>
+            <span id="footer-list"><a href="./pages/product.html">Product</a></span>
+            <span id="footer-list"><a href="./pages/About.html">About</a></span>
+            <span id="footer-list"><a href="./pages/contact.html">Contact</a></span>
+            </div>
+            <div>
+            <p> Hussy product inc &copy;<p>
+            <p> Designed and developed by Hussaina &copy;<p>
+            </div>            
+        </footer>
+
+
+    </body>
+</html>
